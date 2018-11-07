@@ -4,6 +4,8 @@
 
 [![NPM](https://img.shields.io/npm/v/react-internationalize.svg)](https://www.npmjs.com/package/react-internationalize) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![Demo](https://raw.githubusercontent.com/MaxLarue/react-translatron/master/assets/demo.gif "")
+
 ## Install
 
 ```bash
