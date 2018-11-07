@@ -1,22 +1,21 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import withI18n from './hoc/withI18n'
+import {setLang, getLang, setSource, getSource, listenOnLangChange, listenOnSourceChange} from './utils/languageGlobal'
+import languageCodes, { toFullLanguageName } from './utils/languageCodes'
+import WithGetText from './components/WithGetText'
+import LanguageSelector from './components/LanguageSelector'
+import getText from './utils/getText'
 
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
+export {
+  withI18n,
+  setLang,
+  getLang,
+  setSource,
+  getSource,
+  languageCodes,
+  toFullLanguageName,
+  WithGetText,
+  LanguageSelector,
+  getText,
+  listenOnLangChange,
+  listenOnSourceChange
 }
