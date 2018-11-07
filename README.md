@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # react-internationalize
 
 > Internationalization for react
@@ -29,3 +30,7 @@ class Example extends Component {
 ## License
 
 MIT © [MaxLarue](https://github.com/MaxLarue)
+=======
+# react-translatron
+A translation utility for react
+>>>>>>> b44b67d6b60429ba486d5c8c60c37e1e1db22181
